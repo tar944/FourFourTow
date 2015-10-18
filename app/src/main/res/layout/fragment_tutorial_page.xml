@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="Fragments.TutorialPageFragment"
+    android:layout_weight="100"
+    android:orientation="vertical"
+    android:background="@color/tt_transparent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_tutrial_image"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="40"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="35dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="60">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/tv_tutrial_title"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/title_text_size"
+            android:gravity="center_horizontal"
+            android:textColor="@color/tc_white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/tv_tutorial_des"
+            android:layout_below="@+id/tv_tutrial_title"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/small_text_size"
+            android:layout_margin="35dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/tc_white" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".SplashActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/sscreen"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/splash_top_space"
+        android:src="@drawable/fft"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/start_sen"
+        android:id="@+id/textView"
+        android:layout_marginBottom="@dimen/splash_bottom_space"
+        android:textSize="@dimen/splash_text_size1"
+        android:textColor="@color/text_color1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="@dimen/splash_pbar_size"
+        android:layout_height="@dimen/splash_pbar_size"
+        android:id="@+id/pbar_splash"
+        android:layout_alignTop="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/splash_pbar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:text="@string/splash_btn_first_start"
+        android:id="@+id/btn_splash_first_start"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/blue_up"
+        android:textColor="@color/text_color1"
+        android:textSize="@dimen/splash_text_size2"
+        android:visibility="visible" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:text="@string/splash_btn_sign"
+        android:id="@+id/btn_splash_sign"
+        android:layout_above="@+id/btn_splash_first_start"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/green_in"
+        android:textColor="@color/text_color1"
+        android:textSize="@dimen/splash_text_size2"
+        android:visibility="visible" />
+
+</RelativeLayout>

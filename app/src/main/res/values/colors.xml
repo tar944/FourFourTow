@@ -1,0 +1,21 @@
+<resources>
+<!--=============================================================================================-->
+    <color name="text_color1">#ffffff</color>
+    <color name="green_in">#d0009823</color>
+    <color name="blue_up">#c80023cb</color>
+    <color name="action_bar">#259b23</color>
+    <color name="select_line">#464646</color>
+<!--========================================Text Color===========================================-->
+    <color name="tc_white">#ffffffff</color>
+    <color name="tc_green">#259b23</color>
+    <color name="tc_gray">#464646</color>
+    <color name="tc_black">#ff000000</color>
+    <color name="tc_gray2">#999999</color>
+<!--========================================Tutorial Page========================================-->
+    <color name="tt_page1">#259b23</color>
+    <color name="tt_page2">#ff5b5b</color>
+    <color name="tt_page3">#ff7d28</color>
+    <color name="tt_page4">#4564ff</color>
+    <color name="tt_page5">#9d2aff</color>
+    <color name="tt_transparent">#00000000</color>
+</resources>
